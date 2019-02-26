@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Javascript atkārtojums</title>
+    </head>
+    </html><body>
+        <h1>Javascript</h1>
+        <p>Press F12 key. Look in console</p>
+     <script>
+         let str="This is a new string"
+         console.log("My string: ", str)
+        // property
+        let len=str.length
+        console.log('Length of string: ', len)
+        let includeNew=str.includes('new')
+        console.log('Includes new: ',includeNew)
+        let cups=str.toUpperCase()
+        let lower=str.toLowerCase()
+        console.log(cups)
+        console.log(lower)
+        let repl=str.replace('This','Hello, this')
+        console.log(repl)
+        let text=' ,today is beatiful weather, '
+        let str1=repl.slice(0,7)
+        let str2=repl.slice(7)
+        newStr=str1.concat(text, str2)
+        console.log(newStr)
+        console.log(str1,str2)
+         let age=24
+         console.log("Person age: ", age)
+         console.log(`Person age: ${age}`)
+         console.log("Added Git")
+
+         let name='a.txt'
+         console.log(name.slice(name.lastIndexOf('.')+1))
+
+     </script>   
+    </body>
+</html>
