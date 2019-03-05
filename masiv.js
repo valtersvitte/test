@@ -27,7 +27,4 @@ let cars = ["Saab", "Volvo", "BMW","Saab", "Volvo", "BMW"]
           var c = cars.concat(cars2)
           console.log(c)
 
-          let person = {Firtstname, Lastname, DateOfBirth, Gender, TripPlaces}
-          console.log(function a() {
-            return this.Firtstname + " " + this.Lastname + " " + this.DateOfBirth;
-          })
+          
